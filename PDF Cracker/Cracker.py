@@ -1,4 +1,4 @@
-# A PDF password cracker that attempts to decrypt password-protected PDF files using either
+# A PDF password cracker that attempts to decrypt password-protected PDF files using
 # a wordlist or by generating passwords programmatically.
 
 import itertools  #To generate combinations of characters (for password generation).
