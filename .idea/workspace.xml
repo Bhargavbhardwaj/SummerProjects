@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d08f21-d242-4f3d-941e-e1a189386d2a" name="Changes" comment="" />
+    <list default="true" id="a2d08f21-d242-4f3d-941e-e1a189386d2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PDF Cracker/Cracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PDF Cracker/output.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDF Protection Tool/output.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDF Protection Tool/output.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/DNS_enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubdomainEnumerationTool/DNS_enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Subdomain_enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubdomainEnumerationTool/Subdomain_enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/discovered_subdomains.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SubdomainEnumerationTool/discovered_subdomains.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/subdomain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SubdomainEnumerationTool/subdomain.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +38,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender configuration",
     "Notification.DoNotAsk-WindowsDefender": "true",
+    "Python.Cracker.executor": "Run",
     "Python.DNS_enum.executor": "Run",
     "Python.PDF_protector.executor": "Run",
     "Python.Subdomain_enum.executor": "Run",
@@ -41,7 +51,29 @@
       <recent name="C:\Users\hp\PycharmProjects\pythonProjects\PDF Protection Tool" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PDF_protector">
+  <component name="RunManager" selected="Python.Cracker">
+    <configuration name="Cracker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PDF Cracker" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PDF Cracker/Cracker.py" />
+      <option name="PARAMETERS" value="output.pdf --generate -min 2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DNS_enum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjects" />
       <option name="ENV_FILES" value="" />
@@ -132,12 +164,14 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.Cracker" />
       <item itemvalue="Python.DNS_enum" />
       <item itemvalue="Python.PDF_protector" />
       <item itemvalue="Python.Subdomain_enum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Cracker" />
         <item itemvalue="Python.PDF_protector" />
         <item itemvalue="Python.Subdomain_enum" />
         <item itemvalue="Python.DNS_enum" />
